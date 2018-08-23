@@ -56,8 +56,10 @@
   </Choose>
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
-    <Compile Include="Tutorial.fsx" />
+    <Compile Include="wordCounter.fsx" />
     <Content Include="packages.config" />
+    <Content Include="words.txt" />
+    <Content Include="stop-words.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
