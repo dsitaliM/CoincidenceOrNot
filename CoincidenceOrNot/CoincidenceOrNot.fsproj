@@ -60,6 +60,7 @@
     <Content Include="packages.config" />
     <Content Include="words.txt" />
     <Content Include="stop-words.txt" />
+    <None Include="attitude.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
